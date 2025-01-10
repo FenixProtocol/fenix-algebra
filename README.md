@@ -1,4 +1,24 @@
 
+# Fenix Algebra
+
+Welcome to **Fenix Algebra**, the new official home for the [Fenix-Dex-V3](https://github.com/Satsyxbt/Fenix-dex-v3) repository!
+
+---
+
+## :sparkles: Repository Relocation
+
+#### Moved From:
+- **[Satsyxbt/Fenix](https://github.com/Satsyxbt/Fenix)**  
+  This repository is now archived/outdated.
+- **[Satsyxbt/Fenix-Dex-V3](https://github.com/Satsyxbt/fenix-dex-v3)**  
+  This repository is now archived/outdated.
+#### Moved To:
+- **[FenixProtocol/fenix-core](https://github.com/FenixProtocol/fenix-core)**  
+- **[FenixProtocol/fenix-algebra](https://github.com/FenixProtocol/fenix-algebra)**  
+
+---
+
+
 ## Project overiew
 This repository is a fork of [Algebrta Integral V1](https://github.com/cryptoalgebra/Algebra), with the following new features implemented:
 
@@ -8,18 +28,18 @@ This repository is a fork of [Algebrta Integral V1](https://github.com/cryptoalg
 4. Implemented the ability to configure modes for rebasing tokens in pools
 5. POOL_INIT_CODE_HASH variable to the current implementation
 
-Other variables can be found in more detail in the [CHANGELOG](https://github.com/Satsyxbt/fenix-dex-v3/blob/main/CHANGELOG.md)
+Other variables can be found in more detail in the [CHANGELOG](https://github.com/FenixProtocol/fenix-algebra/blob/main/CHANGELOG.md)
 
 The focus of this competition is on the changes made, their impact, and integration with Blast L2 and FeesVaultFactory
 
 ## Additional Context
 * This code will be deployed to `Blast L2` at launch, and it is the only blockchain considered to be in scope for this audit.
-* [FeesVaultFactory](https://github.com/Satsyxbt/Fenix/blob/main/contracts/integration/FeesVaultFactory.sol) is a contract that will create `FeesVault` for v3 pool and use like `vaultFactory` in `AlgebraPoolFactory`
+* [FeesVaultFactory](https://github.com/FenixProtocol/fenix-core/blob/main/contracts/integration/FeesVaultFactory.sol) is a contract that will create `FeesVault` for v3 pool and use like `vaultFactory` in `AlgebraPoolFactory`
 
 ### Links
-- [Fenix ve(3,3) Core](https://github.com/Satsyxbt/Fenix)
+- [Fenix ve(3,3) Core](https://github.com/FenixProtocol/fenix-core)
 - [Algebra docs](https://docs.algebra.finance/)
-- [CHANGELOG](https://github.com/Satsyxbt/fenix-dex-v3/blob/main/CHANGELOG.md)
+- [CHANGELOG](https://github.com/FenixProtocol/fenix-algebra/blob/main/CHANGELOG.md)
 - [Blast L2](https://blast.io/en)
 
 ### List of projects on which Fenix dex v3 is based:
@@ -31,7 +51,7 @@ All contract code marked as `[FULL]` is within the scope. The tag `[Only changes
 
 The contracts listed below are partially or fully in the scope
 ```
-https://github.com/Satsyxbt/Fenix-dex-v3
+https://github.com/FenixProtocol/fenix-algebra
 
 |-- src/
   |-- core/
@@ -78,13 +98,13 @@ The following issues are known:
 ### Getting the code
 Clone this repository
 ```sh
-git clone  https://github.com/Satsyxbt/Fenix-dex-v3
+git clone  https://github.com/FenixProtocol/fenix-algebra
 ```
 
 
 Enter into the directory
 ```sh
-cd fenix-dex-v3
+cd fenix-algebra
 ```
 
 ### Build

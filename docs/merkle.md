@@ -14,18 +14,18 @@ The Fenix version is based on Algebra Integral v1.0
 - `https://github.com/cryptoalgebra/Algebra/releases/tag/v1.0-integral`
  
 Source code for our implementations:
-- **AlgebraFactory** - https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/src/core/contracts/AlgebraFactory.sol
+- **AlgebraFactory** - https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/src/core/contracts/AlgebraFactory.sol
 
-- **AlgebraFactory** - https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/src/core/contracts/AlgebraPool.sol
+- **AlgebraFactory** - https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/src/core/contracts/AlgebraPool.sol
 
-- **NonfungiblePositionManager** - https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/src/periphery/contracts/NonfungiblePositionManager.sol
+- **NonfungiblePositionManager** - https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/src/periphery/contracts/NonfungiblePositionManager.sol
 
 
 ### Documentation describing methods, structs and events
 
-- https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/docs/Contracts/Core/interfaces/IAlgebraFactory.md
-- https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/docs/Contracts/Core/interfaces/pool/IAlgebraPoolEvents.md
-- https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/docs/Contracts/Periphery/interfaces/INonfungiblePositionManager.md
+- https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/docs/Contracts/Core/interfaces/IAlgebraFactory.md
+- https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/docs/Contracts/Core/interfaces/pool/IAlgebraPoolEvents.md
+- https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/docs/Contracts/Periphery/interfaces/INonfungiblePositionManager.md
   
 
 ### Specificities
@@ -44,7 +44,7 @@ More about the features in the documentation: https://docs.algebra.finance/algeb
 #### NonFungibleManager 
 
 ##### functions
-[Returns the position information associated with a given token ID.](https://github.com/Satsyxbt/Fenix-dex-v3/blob/blast-mainnet-release-v1.0/docs/Contracts/Periphery/interfaces/INonfungiblePositionManager.md#positions)
+[Returns the position information associated with a given token ID.](https://github.com/FenixProtocol/fenix-algebra/blob/blast-mainnet-release-v1.0/docs/Contracts/Periphery/interfaces/INonfungiblePositionManager.md#positions)
 ```js
 function positions(uint256 tokenId) external view returns (uint88 nonce, address operator, address token0, address token1, int24 tickLower, int24 tickUpper, uint128 liquidity, uint256 feeGrowthInside0LastX128, uint256 feeGrowthInside1LastX128, uint128 tokensOwed0, uint128 tokensOwed1)
 ``` 

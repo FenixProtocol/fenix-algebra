@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/Satsyxbt/fenix-dex-v3"
+    "url": "https://gitlab.com/FenixProtocol/fenix-algebra"
   },
   "files": [
     "contracts/base/common",
